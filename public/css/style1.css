@@ -1,0 +1,55 @@
+/* //// custom clases  ///// */
+
+
+.filter_btn{
+    background-color: transparent;
+    color: #6f6f6f;
+  }
+  
+  .filter_btn:hover{
+  color: #D19C97;
+  }
+
+  .custom_control{
+    padding-left:0
+  }
+
+  #asize{
+    color: #6f6f6f;
+    text-decoration: none;
+  }
+
+  #asize:hover{
+    color: #D19C97;
+    }
+
+
+    /* rating */
+    .rating-css  div {
+  color: #D19C97;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 800;
+
+  text-transform: uppercase;
+  padding: 0 0 20px 0;
+}
+ div.star-icon input {
+  display: none;
+}
+.rating-css input + label {
+  font-size: 20px;
+  text-shadow: 1px 1px 0 #D19C97;
+  cursor: pointer;
+}
+.rating-css input:checked + label ~ label {
+  color: #b4afaf;
+
+}
+.rating-css label:active {
+  transform: scale(0.8);
+  transition: 0.3s ease;
+}
+
+/* End of Star Rating */
+
